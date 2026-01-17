@@ -1,0 +1,38 @@
+name: CI (Build & Test)
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 18.x, 20.x, 22.x ]
+        # 测试多个 Node 版本以确保兼容性
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        # 使用 npm ci (clean install) 以确保完全一致的依赖环境
+        run: npm ci
+
+      - name: Build project
+        # 运行 tsc 检查类型错误
+        run: npm run build
+
+      - name: Run tests
+        # 运行 Jest
+        run: npm test
