@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91614ade-0a1f-45ba-aa87-276a270b909b" name="Changes" comment="rename CI and deploy-docs workflow files for improved organization">
-      <change afterPath="$PROJECT_DIR$/src/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/balanced-binary-tree.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/leetcode/balanced-binary-tree.test.ts" afterDir="false" />
+    <list default="true" id="91614ade-0a1f-45ba-aa87-276a270b909b" name="Changes" comment="110. 平衡二叉树">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/champagne-tower.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/leetcode/champagne-tower.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Jest.TEST: balanced-binary-tree.executor": "Debug",
+    "Jest.TEST: champagne-tower.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.balanced-binary-tree.ts.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -76,7 +78,7 @@
     "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/wangzhiheng/WebstormProjects/problemsts",
+    "last_opened_file_path": "/home/wangzhiheng/PycharmProjects/scrape_seminars",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.TEST: champagne-tower">
     <configuration name="TEST: balanced-binary-tree" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -102,8 +104,21 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="TEST: champagne-tower" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/leetcode/champagne-tower.test.ts" />
+      <test-names>
+        <test-name value="TEST: champagne-tower" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.TEST: champagne-tower" />
         <item itemvalue="Jest.TEST: balanced-binary-tree" />
       </list>
     </recent_temporary>
@@ -111,8 +126,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.173" />
-        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
       </set>
     </attachedChunks>
   </component>
@@ -126,7 +140,9 @@
       <workItem from="1768688404802" duration="6753000" />
       <workItem from="1769428799330" duration="10000" />
       <workItem from="1770307870472" duration="425000" />
-      <workItem from="1770480716055" duration="2886000" />
+      <workItem from="1770480716055" duration="3240000" />
+      <workItem from="1770670717525" duration="61000" />
+      <workItem from="1771026116200" duration="1967000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -160,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768694393336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="110. 平衡二叉树">
+      <option name="closed" value="true" />
+      <created>1770485982386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770485982387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +194,8 @@
     <MESSAGE value="Add CI and documentation deployment workflows" />
     <MESSAGE value="init" />
     <MESSAGE value="rename CI and deploy-docs workflow files for improved organization" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename CI and deploy-docs workflow files for improved organization" />
+    <MESSAGE value="110. 平衡二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="110. 平衡二叉树" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
