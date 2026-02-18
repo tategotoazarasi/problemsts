@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91614ade-0a1f-45ba-aa87-276a270b909b" name="Changes" comment="110. 平衡二叉树">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/champagne-tower.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/leetcode/champagne-tower.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+    <list default="true" id="91614ade-0a1f-45ba-aa87-276a270b909b" name="Changes" comment="champagneTower">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/count-binary-substrings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/leetcode/count-binary-substrings.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +19,13 @@
     <persistenceIdMap>
       <entry key="_/home/wangzhiheng/WebstormProjects/problemsts" value="38P5XOQm23mcnA0eE4CGLPd4Xmp" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="edit-panel" value="GPT-5 mini" />
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+    </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +83,7 @@
     "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/wangzhiheng/PycharmProjects/scrape_seminars",
+    "last_opened_file_path": "/home/wangzhiheng/WebstormProjects/problemsts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,7 +147,9 @@
       <workItem from="1770307870472" duration="425000" />
       <workItem from="1770480716055" duration="3240000" />
       <workItem from="1770670717525" duration="61000" />
-      <workItem from="1771026116200" duration="1967000" />
+      <workItem from="1771026116200" duration="1991000" />
+      <workItem from="1771103354405" duration="59000" />
+      <workItem from="1771449297787" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -184,18 +191,38 @@
       <option name="project" value="LOCAL" />
       <updated>1770485982387</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="champagneTower">
+      <option name="closed" value="true" />
+      <created>1771031118189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771031118190</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add CI and documentation deployment workflows" />
     <MESSAGE value="init" />
     <MESSAGE value="rename CI and deploy-docs workflow files for improved organization" />
     <MESSAGE value="110. 平衡二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="110. 平衡二叉树" />
+    <MESSAGE value="champagneTower" />
+    <option name="LAST_COMMIT_MESSAGE" value="champagneTower" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
